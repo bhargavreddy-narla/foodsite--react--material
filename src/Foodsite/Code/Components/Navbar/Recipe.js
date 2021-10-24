@@ -18,7 +18,7 @@ const Recipe = ({ recipe }) => {
           <h2>{label}</h2>
         </div>
         <CardContent>
-          <Typography>
+          <Typography className="card--Content">
             Add rice and stir very gently to distribute. Top with artichokes and
             peppers, and cook without stirring, until most of the liquid is
             absorbed, 15 to 18 minutes.

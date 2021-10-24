@@ -3,9 +3,8 @@ import "./Navbar.scss";
 import Axios from "axios";
 import Recipe from "./Recipe";
 import Alert from "./Alert";
-import AppBar from "@mui/material/AppBar";
-import Toolbar from "@mui/material/Toolbar";
-import Button from "@mui/material/Button";
+import { AppBar, Toolbar, Button } from "@mui/material";
+
 const Navbar = () => {
   const [query, setQuery] = useState("");
   const [recipes, setRecipes] = useState([]);
@@ -17,14 +16,14 @@ const Navbar = () => {
     if (query !== "") {
       const result = await Axios.get(url);
       if (!result.data.more) {
-        return setAlert("No food with such name");
+        return setAlert("No results found");
       }
       console.log(result);
       setRecipes(result.data.hits);
       setQuery("");
       setAlert("");
     } else {
-      setAlert("Please fill the form");
+      setAlert("Search any item");
     }
   };
   const onChange = (e) => setQuery(e.target.value);
@@ -43,10 +42,18 @@ const Navbar = () => {
             height="80px"
           />
           <div className="appbar--Buttons">
-            <Button variant="text">HOME</Button>
-            <Button variant="text">MENU</Button>
-            <Button variant="text">OFFERS</Button>
-            <Button variant="text">DELIVERY</Button>
+            <Button variant="text" color="secondary">
+              HOME
+            </Button>
+            <Button variant="text" color="secondary">
+              MENU
+            </Button>
+            <Button variant="text" color="secondary">
+              OFFERS
+            </Button>
+            <Button variant="text" color="secondary">
+              DELIVERY
+            </Button>
           </div>
           <form onSubmit={onSubmit} className="search-form">
             {alert !== "" && <Alert alert={alert} />}
