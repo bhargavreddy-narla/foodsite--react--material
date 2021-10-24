@@ -1,0 +1,15 @@
+.foodsite--Firstrow {
+  &--Heading {
+    text-align: left;
+    margin: 1rem 3rem;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    color: darkgoldenrod;
+  }
+  .foodsite--Firstrow--chicken--Items {
+    display: flex;
+  }
+  .chickCards {
+    margin: 0 3rem;
+  }
+}

@@ -1,13 +1,24 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import Button1 from "./23-09-2021/Code/Components/Button1/Button1";
-import Button2 from "./23-09-2021/Code/Components/Button2/Button2";
+import Navbar from "./Foodsite/Code/Components/Navbar/Navbar";
+import Chicken1 from "./Foodsite/Code/Components/Chicken/Chicken1";
+import Mutton1 from "./Foodsite/Code/Components/Mutton/Mutton1";
+import Vegetarian1 from "./Foodsite/Code/Components/Vegetarian/Vegetarian1";
+import Juices1 from "./Foodsite/Code/Components/Juices/Juices1";
+import Deserts1 from "./Foodsite/Code/Components/Deserts/Deserts1";
+import Footer1 from "./Foodsite/Code/Components/Footer/Footer1";
+
 function App() {
   return (
     <div className="App">
-      <Button1 />
-      <Button2 />
+      <Navbar />
+
+      <Chicken1 />
+      <Mutton1 />
+      <Vegetarian1 />
+      <Juices1 />
+      <Deserts1 />
+      <Footer1 />
     </div>
   );
 }
