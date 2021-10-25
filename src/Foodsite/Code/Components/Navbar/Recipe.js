@@ -7,9 +7,7 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 
 const Recipe = ({ recipe }) => {
-  //const [show, setShow] = useState(false);
   const { label, image } = recipe.recipe;
-
   return (
     <div className="recipe">
       <Card>

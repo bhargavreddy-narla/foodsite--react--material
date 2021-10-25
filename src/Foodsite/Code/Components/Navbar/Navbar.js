@@ -4,7 +4,6 @@ import Axios from "axios";
 import Recipe from "./Recipe";
 import Alert from "./Alert";
 import { AppBar, Toolbar, Button } from "@mui/material";
-
 const Navbar = () => {
   const [query, setQuery] = useState("");
   const [recipes, setRecipes] = useState([]);
