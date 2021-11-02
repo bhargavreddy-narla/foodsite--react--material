@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Chicken1 />
+      <Chicken1 /> 
       <Mutton1 />
       <Vegetarian1 />
       <Juices1 />

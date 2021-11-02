@@ -11,38 +11,36 @@ const Footer1 = () => {
   return (
     <div className="footer">
       <Box>
-        <Grid container>
-          <Grid item xs={12} container className="footerLinks">
-            <Grid xs={3}>
-              <h3>COMPANY</h3>
-              <a href="#">About us</a>
-              <a href="#">Blog</a>
-              <a href="#">Contact</a>
-            </Grid>
-            <Grid xs={3}>
-              <h3>FOR FOODIES</h3>
-              <a href="#">Community</a>
-              <a href="#">Help</a>
-              <a href="#">Mobile Apps</a>
-            </Grid>
-            <Grid xs={3}>
-              <h3>FOR YOU</h3>
-              <a href="#">Privacy</a>
-              <a href="#">Terms</a>
-              <a href="#">Security</a>
-            </Grid>
-            <Grid xs={3} className="footer--Social--Icons">
-              <h3>FOLLOW US ON </h3>
-              <IconButton>
-                <FacebookIcon />
-              </IconButton>
-              <IconButton>
-                <YouTubeIcon />
-              </IconButton>
-              <IconButton>
-                <InstagramIcon />
-              </IconButton>
-            </Grid>
+        <Grid item xs={12} container className="footerLinks">
+          <Grid xs={3}>
+            <h3>COMPANY</h3>
+            <a href="#">About us</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+          </Grid>
+          <Grid xs={3}>
+            <h3>FOR FOODIES</h3>
+            <a href="#">Community</a>
+            <a href="#">Help</a>
+            <a href="#">Mobile Apps</a>
+          </Grid>
+          <Grid xs={3}>
+            <h3>FOR YOU</h3>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Security</a>
+          </Grid>
+          <Grid xs={3} className="footer--Social--Icons">
+            <h3>FOLLOW US ON </h3>
+            <IconButton>
+              <FacebookIcon />
+            </IconButton>
+            <IconButton>
+              <YouTubeIcon />
+            </IconButton>
+            <IconButton>
+              <InstagramIcon />
+            </IconButton>
           </Grid>
         </Grid>
       </Box>
