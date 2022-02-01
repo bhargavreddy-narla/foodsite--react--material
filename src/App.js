@@ -7,12 +7,10 @@ import Vegetarian1 from "./Foodsite/Code/Components/Vegetarian/Vegetarian1";
 import Juices1 from "./Foodsite/Code/Components/Juices/Juices1";
 import Deserts1 from "./Foodsite/Code/Components/Deserts/Deserts1";
 import Footer1 from "./Foodsite/Code/Components/Footer/Footer1";
-import Sample from "./Sample/Sample";
 
 function App() {
   return (
     <div className="App">
-      {/* <Sample /> */}
       <Navbar />
       <Chicken1 />
       <Mutton1 />
