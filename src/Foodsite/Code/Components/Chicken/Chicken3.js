@@ -4,7 +4,7 @@ const chickitems = [
     title: "Chicken Kadai",
     description: `Add rice and stir very gently to distribute. Top with artichokes and
     peppers, and cook without stirring, until most of the liquid is
-    absorbed, 15 to 18 minutes.`,
+    absorbed, 15 to 18 .`,
   },
   {
     imageUrl: process.env.PUBLIC_URL + "/images/chick2.jpg",
